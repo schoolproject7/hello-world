@@ -6,7 +6,6 @@ def numbersAverage(x):
 
 def main():
     fname = input("Enter a file name here: ")
-
     try:
         numbers = open(fname,"r").read().split()
         avg = numbersAverage(numbers)
